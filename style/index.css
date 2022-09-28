@@ -8,3 +8,7 @@ h1{
     color: blue;
     text-align: center;
 }
+figure img{
+    width: 960px;
+    height: 960px;
+}
