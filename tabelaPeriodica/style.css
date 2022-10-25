@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heading {
+    font-size: 70px;
+    color:rgb(7, 6, 6);
+    text-align: center;
+    margin-left: 400px;
+}
+
+td {
+    text-align: center;
+    width: 5vw; /* Pixel (px) = (Viewport width unit (vw) * Viewport width) / 100 */
+    border: 1px solid white;
+    color: white;
+    size: 12px;
+    font-weight: 700;
+}
+
+.none {
+    border: none;
+}
+
+.color1 {
+    background-color: green;
+}
+
+.color2 {
+    background-color: rgb(158, 148, 11);
+}
+
+.color3 {
+    background-color: rgb(224, 224, 46);
+}
+
+.color4 {
+    background-color:#859998;
+}
+
+.color5 {
+    background-color:#a1669f;
+}
+
+.color6 {
+    background-color: #00b6bc;
+}
+
+.color7 {
+    background-color: #004e75;
+}
+
+.color8 {
+    background-color: #329090;
+}
+
+.color9 {
+    background-color:#0d2835;
+}
+
+.color10{
+    background-color: #562d56;
+}
+
+.color11{
+    background-color: #859998;
+}
+
+/* Flickering animation */
+@keyframes flicker {
+    0%, 17%, 33%, 50%, 66%, 83%, 100% {
+  
+        text-shadow:
+        0 0 5px #fff,
+        0 0 10px #0fa,
+        0 0 20px #0fa,
+        0 0 40px #0fa,
+        0 0 70px #0fa,
+        0 0 110px #0fa,
+        0 0 160px #0fa
+    }
+    
+    20%, 40%, 60%, 80% {        
+        text-shadow: none;
+    }    
+}
+  
+td:hover {
+    filter: brightness(200%);
+    color: black;
+}
+.parent{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    margin: 30px ;
+
+}
+.child{
+    display: flex;
+    align-items: center;
+}
+.box{
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+
+}
+.verde-claro{
+    background-color: green;
+}
+.amarelo-queimado{
+    background-color: rgb(158, 148, 11);
+}
+.lilas{
+    background-color: #00b6bc;
+}
+.azull{
+    background-color: #004e75;
+}
+.lan{
+    background-color:#859998;
+}
+.gases{
+    background-color:#0d2835;
+}
+.amarelo{
+    background-color: yellow;
+}
+.halo{
+    background-color: #329090;
+}
+.mt{
+    background-color:#a1669f;
+}
+.ac{
+    background-color: #562d56;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.father{
+    text-align: center;
+}
+.inside{
+    margin-top: 100px;
+    margin-bottom: 40px;
+    
+}
