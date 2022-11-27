@@ -1,0 +1,68 @@
+*{
+    font-family: sans-serif;
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    padding: 16px;
+    width: 440px;
+    height: 449px;
+    box-shadow: 10px 10px 10px rgb(219, 202, 202);
+    border-radius: 10px;
+}
+.formTitulo{
+    text-align: center;
+    color: #6813d4;
+    font-family: sans-serif;
+}
+.formSubTitulo{
+    color: #6813d4;
+    font-family: sans-serif;
+}
+.paragrafoLogin{
+    color: #aaa;
+    font-family: sans-serif;
+}
+.loginInput{
+    width: 90%;
+    padding: 10px;
+    display: block;
+    margin-top: 5px;
+    border: 1px solid #333;
+    border-radius: 6px;
+}
+.loginWrapper{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.LoginCriarConta{
+    text-align: center;
+}
+.divLoginButtom{
+    display: flex;
+    justify-content: flex-end;
+}
+.LoginButtom{
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: #6813d4;;
+    padding: 16px 32px;
+    color: #fff;
+    display:flex;
+}
+.LoginButtomCancelar{
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: red;
+    padding: 16px 32px;
+    color: #fff;
+    display:flex;
+}
