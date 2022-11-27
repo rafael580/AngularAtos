@@ -22,24 +22,28 @@
                 <p><img src="" alt="i"> Sessões </p>
             </div>
         </div>
+
         <div class="tabela" >
             <div class="cabecalhoPesquisa">
-                <span>Meus Pacientes</span>
-                <input type="text" placeholder="Pesquisar">
-                <button> <img src="" alt="i"> Novo Paciente</button>
+                <span class="titulotabelaPacientes">Meus Pacientes</span>
+                <input type="text" placeholder="Pesquisar" class="pesquisartabela">
+                <button class="botaotabela"> <img src="" alt="i"> Novo Paciente</button>
             </div>
             <div class="corpoTabela">
                 <table>
-                    <thead>
-                    <tr>Nome</tr>
-                    <tr>Endereço</tr>
-                    <tr>E-mail</tr>
-                    <tr>Gênero</tr>
-                    <tr>Cidade</tr>
-                    <tr>Municipio</tr>
-                    <tr>Ações</tr>
+                    <thead> 
+                    <tr>
+                        <th>Nome</th>
+                        <th>Endereço</th>
+                        <th>E-mail</th>
+                        <th>Gênero</th>
+                        <th>Cidade</th>
+                        <th>Municipio</th>
+                        <th>Ações</th>
+                    </tr>
                 </thead>
                 <tbody>
+                    <tr>
                     <td>Lorem</td>
                     <td>rua lorem</td>
                     <td>lorem@gamil.com</td>
@@ -47,8 +51,8 @@
                     <td>MD</td>
                     <td>porto  alegre</td>
                     <td><img src="" alt="i"></td>
-                </tbody>
-                <tbody>
+                </tr>
+                <tr>
                     <td>Lorem</td>
                     <td>rua lorem</td>
                     <td>lorem@gamil.com</td>
@@ -56,8 +60,8 @@
                     <td>MD</td>
                     <td>porto  alegre</td>
                     <td><img src="" alt="i"></td>
-                </tbody>
-                <tbody>
+                </tr>
+                <tr>
                     <td>Lorem</td>
                     <td>rua lorem</td>
                     <td>lorem@gamil.com</td>
@@ -65,8 +69,8 @@
                     <td>MD</td>
                     <td>porto  alegre</td>
                     <td><img src="" alt="i"></td>
-                </tbody>
-                <tbody>
+                </tr>
+                <tr>
                     <td>Lorem</td>
                     <td>rua lorem</td>
                     <td>lorem@gamil.com</td>
@@ -74,13 +78,35 @@
                     <td>MD</td>
                     <td>porto  alegre</td>
                     <td><img src="" alt="i"></td>
+                </tr>
+                <tr>
+                    <td>Lorem</td>
+                    <td>rua lorem</td>
+                    <td>lorem@gamil.com</td>
+                    <td>loram</td>
+                    <td>MD</td>
+                    <td>porto  alegre</td>
+                    <td><img src="" alt="i"></td>
+                </tr>
+                <tr>
+                    <td>Lorem</td>
+                    <td>rua lorem</td>
+                    <td>lorem@gamil.com</td>
+                    <td>loram</td>
+                    <td>MD</td>
+                    <td>porto  alegre</td>
+                    <td><img src="" alt="i"></td>
+                </tr>
                 </tbody>
+                <tfoot>
+                    <tr>
+                       <td colspan="4"></td>
+                      <td>  <span>Itens por página</span></td> 
+                      <td>  <input type="text"></td> 
+                      <td>  <span>1 - 6 de 10 < > </span></td> 
+                    </tr>
+                </tfoot>
                 </table>
-            </div>
-            <div class="rodapeTabela">
-                <span>Itens por página</span>
-                <input type="text">
-                <span>1 - 6 de 10 < > </span>
             </div>
         </div>
     </div>

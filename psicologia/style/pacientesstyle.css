@@ -11,7 +11,7 @@ body{
 .menu{
     height: 98.5vh;
     background-color: #6813d4; 
-    color: #fff;
+    color: #fff; 
     padding: 5px;
 }
 .cabecalhoMenu{
@@ -27,5 +27,68 @@ body{
     color: #666;
     padding: 7px;
     border-radius: 0px 50px   50px 0px;
+    border: none;
+}
+.tabela{
+    width: 900px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.corpoTabela{
+    display: flex;
+    justify-content: center;
+}
+.cabecalhoPesquisa{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    height: 40px;
+    margin: 0 auto;
+    gap: 20px;
+    margin-top: 20px;
+}
+.titulotabelaPacientes{
+    font-family: sans-serif;
+    font-size: 32px;
+    color: #666;
+}
+.pesquisartabela{
+    padding: 0 90px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.botaotabela{
+    padding: 0 30px;
+    background-color: #6813d4;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+}
+table{
+    margin-top: 14px;
+    border: none;
+    width: 900px;
+}
+table thead{
+    color: #fff;
+    border: none;
+}
+table th{
+    padding:6px;
+    background-color:rebeccapurple;
+    border-radius: 8px;
+    border: none;
+}
+table tbody{
+    background-color: white;
+    border: none;
+
+}
+table td{
+    border: none;
+}
+table tbody tr:nth-child(even){
+    background-color: rgb(214, 209, 209);
     border: none;
 }
