@@ -1,0 +1,50 @@
+body{
+    font-family: sans-serif;
+}
+.quadrado{
+    width: 300px;
+    height: 300px;
+    box-shadow: 10px 10px 10px rgb(219, 202, 202);
+}
+
+.h1lista{
+    color: #6813d4;
+    font-size: 20px;
+}
+.lista{
+display: block;
+margin-bottom: 10px;
+padding-right: 150px;
+border-radius: 10px;
+}
+.observacao{
+    height: 100px;
+    width: 230px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+
+.divLoginButtom{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+.LoginButtom{
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: #6813d4;;
+    padding: 16px 32px;
+    color: #fff;
+    display:flex;
+}
+.LoginButtomCancelar{
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: red;
+    padding: 16px 32px;
+    color: #fff;
+    display:flex;
+}

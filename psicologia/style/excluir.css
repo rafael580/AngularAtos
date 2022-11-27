@@ -1,0 +1,40 @@
+.excluir{
+    width: 250px;
+    height: 200px;
+    box-shadow: 10px 10px 10px rgb(219, 202, 202);
+    font-family: sans-serif;
+}
+.h1excluir{
+    text-align: center;
+    color: #6813d4;
+}
+.linha{
+    color: #6813d4;
+}
+.texto{
+   color: #aaa;
+}
+
+.divLoginButtom{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+.LoginButtom{
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: #6813d4;;
+    padding: 16px 32px;
+    color: #fff;
+    display:flex;
+}
+.LoginButtomCancelar{
+    margin: 5px;
+    border: none;
+    border-radius: 10px;
+    background-color: red;
+    padding: 16px 32px;
+    color: #fff;
+    display:flex;
+}
